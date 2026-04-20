@@ -34,6 +34,7 @@ do{
 	try{
 		cout<<"Enter 2 numbers : ";
 		cin>>x>>y;
+		
 		/*corated Exception Handling*/
 		if(cin.fail()) throw f;
 		if(abs(x)>1000 ||abs(y)>1000) throw r;
@@ -69,13 +70,12 @@ do{
 	}
 
 }while(a);
-	
 	return 0;
 }
 
 
 void check0(int x){
 	div0 e;
-	if(x==0) throw(e);
+	if(x==0) throw e;
 }
 
